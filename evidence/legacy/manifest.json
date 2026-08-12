@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "source_basename": "predict.txt",
+  "source_sha256": "08873514be899d53294153e96f565dcc14c1a3268efe705a6c30f10f8d268a7b",
+  "importer_version": 1,
+  "rows": 4500,
+  "blocks": 180,
+  "clients_per_block": 25,
+  "client_min": 100,
+  "client_max": 124,
+  "actual_noise_min": 0.0,
+  "actual_noise_max": 0.5,
+  "categorical_emd_01_min": 0.0,
+  "categorical_emd_01_max": 0.89,
+  "lid_min": 1.1435842290324105,
+  "lid_max": 5.156294173153371,
+  "sample_count_min": 200,
+  "sample_count_max": 200,
+  "inferred_target_noise_min": 0.0,
+  "inferred_target_noise_max": 0.45,
+  "inferred_emd_base_min": 0.0,
+  "inferred_emd_base_max": 0.8500000000000001,
+  "total_runtime_seconds": 52257.863918,
+  "csv_sha256": "1de23a368707b834520cd47af94c4bf5d79e5664be5818459af65db35b4b60a7",
+  "field_semantics": {
+    "source": "legacy historical observation",
+    "block_index": "zero-based block ordinal",
+    "k_index": "LID neighbor count index from historical loop",
+    "round_index": "historical round index",
+    "client_id": "probe client id 100-124",
+    "actual_noise": "measured label noise from the log",
+    "categorical_emd_01": "0/1 category-cost distance, not pixel EMD",
+    "lid": "local intrinsic dimensionality from the log",
+    "sample_count": "per-client sample count from the log",
+    "inferred_target_noise": "derived target noise from the historical loop",
+    "inferred_emd_base": "derived target EMD base from the historical loop"
+  },
+  "inferred_formulas": {
+    "inferred_target_noise": "k_index * 0.05",
+    "inferred_emd_base": "round_index * 0.05"
+  }
+}
