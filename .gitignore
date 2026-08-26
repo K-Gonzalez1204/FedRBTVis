@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local datasets and run artifacts
+data/
+runs/
+studies/
+*.pt
+*.pth
+
+# Frontend
+app/frontend/node_modules/
+app/frontend/dist/
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+report.pdf
+.codex-review-*.diff

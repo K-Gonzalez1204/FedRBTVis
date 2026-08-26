@@ -1,0 +1,10 @@
+----------begin----------
+
+i=100 0.0 0.0 2.8 200
+i=101 0.0 0.01 2.1 200
+------------k=0 ROUND 0---------------k=0 ROUND=0 --- stage time cost: 0h 1m 60.0s
+k=0 ROUND=0 --- total time cost: 0h 1m 60.0s
+i=100 0.1 0.05 3.0 200
+i=101 0.1 0.06 2.5 200
+------------k=2 ROUND 1---------------k=2 ROUND=1 --- stage time cost: 0h 1m 61.0s
+k=2 ROUND=1 --- total time cost: 0h 2m 121.0s
